@@ -1,43 +1,53 @@
 .title {
   color: #FFD700;
-  background-color: #C2DFFF;
+  background-color: olive;
   text-align: center;
 }
 
-.musicians {
-  margin: 12px;
-  border: 2px solid greenyellow;
-  padding: 4px;
-  background-color: olive;
+img {
+  float: left;
+  margin-top: 37px;
 }
 
-.gold-text {
+.sidebar {
+  width: 20%;
+  float: right;
+  background-color: black;
+  text-align: center;
+}
+
+.info {
+  width: 20%;
   color: #FFD700;
+  background-color: black;
+  text-align: left;
+  font-family: sans-serif;
+  margin: center;
 }
 
 div {
   background-color: black;
-  text-align: left;
+  text-align: center;
   font-family: sans-serif;
 }
 
 .box1 {
-  width: 50%;
+  width: 100%;
   padding: 20px;
-  border: solid whitesmoke;
+  border: solid olive;
   border-width: 1px;
-  background-color: #C2DFFF;
+  background-color: darkgray;
   margin-bottom: 10px;
   box-sizing: border-box;
   text-align: center;
 }
 
 .box2 {
-  width: 50%;
+  width: 100%;
   padding: 20px;
-  border: solid whitesmoke;
+  border: solid olive;
   border-width: 10px;
-  background-color: #C2DFFF;
+  background-color: darkgray;
   margin-bottom: 20px;
   box-sizing: border-box;
   text-align: center;
