@@ -6,12 +6,13 @@
 
 img {
   float: left;
-  margin-top: 37px;
+  margin-top: 5%;
 }
 
 .sidebar {
   width: 20%;
   float: right;
+  align-self: top;
   background-color: black;
   text-align: center;
 }
@@ -20,7 +21,7 @@ img {
   width: 20%;
   color: #FFD700;
   background-color: black;
-  text-align: left;
+  text-align: center;
   font-family: sans-serif;
   margin: center;
 }
@@ -35,8 +36,8 @@ div {
   width: 100%;
   padding: 20px;
   border: solid olive;
-  border-width: 1px;
-  background-color: darkgray;
+  border-width: 5px;
+  background-color: rgb(109, 109, 109);
   margin-bottom: 10px;
   box-sizing: border-box;
   text-align: center;
@@ -47,8 +48,15 @@ div {
   padding: 20px;
   border: solid olive;
   border-width: 10px;
-  background-color: darkgray;
-  margin-bottom: 20px;
+  background-color: rgb(109, 109,109);
+  margin-bottom: 10px;
   box-sizing: border-box;
   text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: black;
+    color: goldenrod;
+  }
 }
