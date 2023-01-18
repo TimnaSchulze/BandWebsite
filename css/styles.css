@@ -1,7 +1,33 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body { 
+	background-image: url("file:///C:/Users/Schul/desktop/D-Lujo/WholeBand.jpg") no repeat center center;
+  font: 75% georgia;
+	line-height: 2;
+	color: #555753;  
+	margin: 0; 
+	padding: 0;
+	}
+
+/* specific divs */
+
+.page-wrapper {
+
+}
+
 .title {
   color: #FFD700;
   background-color: olive;
   text-align: center;
+}
+
+.ending {
+  color: #FFD700;
+  background-color: olive;
+  text-align:end;
 }
 
 img {
@@ -10,7 +36,7 @@ img {
 }
 
 .sidebar {
-  width: 20%;
+  width: 30%;
   float: right;
   align-self: top;
   background-color: black;
@@ -24,12 +50,6 @@ img {
   text-align: center;
   font-family: sans-serif;
   margin: center;
-}
-
-div {
-  background-color: black;
-  text-align: center;
-  font-family: sans-serif;
 }
 
 .box1 {
@@ -56,7 +76,10 @@ div {
 
 @media screen and (min-width: 480px) {
   body {
-    background-color: black;
+    background: url("file:///C:/Users/Schul/desktop/D-Lujo/WholeBand.jpg") no repeat center center;
+    padding: 0 175px 0 110px;
+    margin: 0;
+    position: relative;
     color: goldenrod;
   }
 }
